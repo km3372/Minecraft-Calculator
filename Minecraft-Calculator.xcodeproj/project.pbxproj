@@ -12,6 +12,11 @@
 		8DB7164F1C6E056600605B17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB7164D1C6E056600605B17 /* Main.storyboard */; };
 		8DB716511C6E056600605B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB716501C6E056600605B17 /* Assets.xcassets */; };
 		8DB716541C6E056600605B17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB716521C6E056600605B17 /* LaunchScreen.storyboard */; };
+		8DB7165C1C6E0A0600605B17 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DB7165B1C6E0A0600605B17 /* Minecraft.ttf */; };
+		8DB7165E1C6E0AB200605B17 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8DB7165D1C6E0AB200605B17 /* btn.wav */; };
+		8DB716641C6E1B0100605B17 /* minecraft-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DB716631C6E1B0100605B17 /* minecraft-logo.png */; };
+		8DB716661C6F12D600605B17 /* 1581809.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DB716651C6F12D600605B17 /* 1581809.jpg */; };
+		8DB716681C72777400605B17 /* firstimages.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8DB716671C72777400605B17 /* firstimages.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		8DB716501C6E056600605B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DB716531C6E056600605B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DB716551C6E056600605B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB7165B1C6E0A0600605B17 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		8DB7165D1C6E0AB200605B17 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		8DB716631C6E1B0100605B17 /* minecraft-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minecraft-logo.png"; sourceTree = "<group>"; };
+		8DB716651C6F12D600605B17 /* 1581809.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1581809.jpg; sourceTree = "<group>"; };
+		8DB716671C72777400605B17 /* firstimages.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = firstimages.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,11 +45,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D01147C1D9D70B80088FCEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 		8DB7163D1C6E056600605B17 = {
 			isa = PBXGroup;
 			children = (
 				8DB716481C6E056600605B17 /* Minecraft-Calculator */,
 				8DB716471C6E056600605B17 /* Products */,
+				8DB7165B1C6E0A0600605B17 /* Minecraft.ttf */,
+				8DB7165D1C6E0AB200605B17 /* btn.wav */,
+				8DB716631C6E1B0100605B17 /* minecraft-logo.png */,
+				8DB716651C6F12D600605B17 /* 1581809.jpg */,
+				8DB716671C72777400605B17 /* firstimages.jpeg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +76,7 @@
 		8DB716481C6E056600605B17 /* Minecraft-Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				8D01147C1D9D70B80088FCEA /* Frameworks */,
 				8DB716491C6E056600605B17 /* AppDelegate.swift */,
 				8DB7164B1C6E056600605B17 /* ViewController.swift */,
 				8DB7164D1C6E056600605B17 /* Main.storyboard */,
@@ -91,12 +114,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "iMoody Studios";
 				TargetAttributes = {
 					8DB716451C6E056600605B17 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 33L2ZKF2XN;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -123,8 +147,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DB716661C6F12D600605B17 /* 1581809.jpg in Resources */,
+				8DB716641C6E1B0100605B17 /* minecraft-logo.png in Resources */,
+				8DB7165E1C6E0AB200605B17 /* btn.wav in Resources */,
 				8DB716541C6E056600605B17 /* LaunchScreen.storyboard in Resources */,
 				8DB716511C6E056600605B17 /* Assets.xcassets in Resources */,
+				8DB716681C72777400605B17 /* firstimages.jpeg in Resources */,
+				8DB7165C1C6E0A0600605B17 /* Minecraft.ttf in Resources */,
 				8DB7164F1C6E056600605B17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,8 +205,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -221,8 +252,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -241,6 +274,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -254,6 +288,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iMoodyStuidos.Minecraft-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -265,6 +300,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iMoodyStuidos.Minecraft-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -287,6 +323,7 @@
 				8DB7165A1C6E056600605B17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
